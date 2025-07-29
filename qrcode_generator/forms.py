@@ -12,7 +12,6 @@ class PdfUploadForm(forms.ModelForm):
             'title': 'Título do Arquivo',
             'pdf_file': 'Selecione o PDF'
         }
-# ✅ FORMULÁRIO DE EDIÇÃO CORRIGIDO
 class QREditForm(forms.ModelForm):
     # Definimos o campo 'qr_type' explicitamente aqui
     # Usamos o choices diretamente do modelo para manter a consistência
